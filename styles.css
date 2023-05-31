@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Roboto";
+}
+
+header h2 {
+  background-color: #1cd1b0;
+  margin: 0;
+  padding: 0 20px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+header h1 {
+  background-color: #00669f;
+  margin: 0;
+  padding: 30px 20px;
+  font-weight: 400;
+  font-size: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.442);
+  font-weight: 600;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.carta1,
+.carta2,
+.carta3 {
+  margin-top: 150px;
+  width: 300px;
+  height: 529px;
+  background-image: url(/background1.png);
+  background-size: 300px 194px;
+  background-color: #f3f3f3;
+  background-repeat: no-repeat;
+  border-radius: 16px 16px 0 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.442);
+  position: relative;
+}
+
+.carta2 {
+  background-image: url(/background2.png);
+}
+
+.like {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.heroe {
+  border-radius: 50%;
+  position: absolute;
+  top: 130px;
+  left: 85px;
+}
+
+.texto-carta {
+  position: absolute;
+  text-align: center;
+  bottom: 10px;
+  padding: 20px;
+}
+
+button {
+  margin-top: 20px;
+  background-color: #00669f;
+  border: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  color: white;
+}
+
+footer h3 {
+  bottom: 100px;
+  margin: 0;
+  margin-top: 150px;
+  background-color: #00669f;
+  font-size: 16px;
+  padding: 10px 20px;
+}
